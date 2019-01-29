@@ -1,0 +1,36 @@
+/* Change the background color of entire page */
+
+body {
+    background-color: #6f9be2;
+}
+/* Change the font size of the paragraphs and lists so they are different sizes*/
+
+p {
+    font-size: 20px;
+}
+
+li {
+    font-size: 30px;
+}
+
+/* Add padding below each heading you've used to space them out from above content*/
+
+
+h1, h2, h3, h4 {
+    padding-bottom: 50px;
+}
+
+/* Make the page title, H1 bold and underlined */
+
+h1 {
+     text-decoration: underline;
+    text-align: center;
+    color: crimson;
+}
+
+footer {
+    font-size: 40px;
+}
+
+
+
