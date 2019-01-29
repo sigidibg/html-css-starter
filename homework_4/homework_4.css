@@ -32,5 +32,11 @@ footer {
     font-size: 40px;
 }
 
+ol img {
+	max-width:2%;
+}
 
+img {
+	max-width:20%;
+}
 
