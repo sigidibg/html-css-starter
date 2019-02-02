@@ -1,0 +1,87 @@
+
+/*  Classes */
+.first-paragraph {
+    background-color: darkgray;
+    color: white;
+    font-size: 25px;
+}
+.first-paragraph span {
+    font-style: italic;
+    color: red;
+}
+/* Ordered List Class */ 
+.cooking {
+    color: red;
+}
+.ordered {
+    background-color: cornflowerblue; 
+     margin-left: 20px;  
+    margin-right: 20px;
+}
+
+/* Unordered List Class */
+
+.unordered {
+    background-color: aquamarine;
+    margin-left: 20px;  
+    margin-right: 20px;
+    list-style-type: none;
+}
+.ingredients {
+    background-color: aliceblue;
+    font-size: 30px;  
+}
+
+/* IDs */
+#recepies {
+    font-size: 25px;
+    color: black; 
+}
+
+#dishes img {
+    border-radius: 10%;
+    display: inline-block;
+}
+
+#more-links {
+    color: #00FF00;
+    background-color: orangered;
+    width: 100px;
+}
+
+/* Change bullet-points in the Unordered list to an emoji */
+
+li.smiley:before { content: "😀"; }
+li.box:before { content: "❑"; }
+li.hand:before { content: "☞"; }
+li.star:before { content: "✭"; }
+li.triangle:before { content: "►"; }
+li.dot:before { content: "◉";}
+li.quote:before { content: "»"; font-size: 1.2em; }
+li.arrow:before { content: "→"; }
+li.sun:before { content: "☀️"; }
+li.checkmark:before { content: "✓"; }
+li.heart:before { content: "❤️"}
+/* Override any img styles to ensure Emojis are displayed inline */
+img {
+    display: inline;
+}
+
+header ul {
+    font-size: 25px;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 60px;
+}
+img {
+    max-width: 200px;
+}
+.ordered img {
+    max-width: 40px;
+}
+footer {
+    font-size: 40px;
+}
+
