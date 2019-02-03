@@ -62,6 +62,7 @@ li.arrow:before { content: "→"; }
 li.sun:before { content: "☀️"; }
 li.checkmark:before { content: "✓"; }
 li.heart:before { content: "❤️"}
+
 /* Override any img styles to ensure Emojis are displayed inline */
 img {
     display: inline;
