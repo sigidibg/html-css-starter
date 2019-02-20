@@ -1,0 +1,111 @@
+main {
+    background-color: #edf3ff;
+     font-family: sans-serif;
+    margin: 0 20px;
+}
+nav {
+    background-color: #b4b8c1;
+    height: 50px;
+    border-radius: 10px;
+    line-height: 50px;
+    font-family: sans-serif;   
+}
+
+ 
+nav ul {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-around;  
+}
+
+.links {
+    
+}
+nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+#heading {
+    text-align: center;
+}
+
+#heading img {
+    width: 500px;
+    border-radius: 2%;
+}
+
+#last-paragraph p{
+     padding-left: 20px;
+    background-color: #edf3ff;
+}
+
+
+main article {
+    display: flex;
+}
+
+#top-text {
+    width: 150%;
+    margin-right: 25px;
+    font-size:20px;
+    margin-top: 20px;
+    background-color: #c7dbf9;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+h1 {
+    font-size: 50px;
+    margin-top: 0px;
+}
+/*  Classes */
+#cooking {
+     font-size:15px;
+    padding-bottom: 20px;
+}
+#ingredients {
+     font-size:15px;
+}
+#ingredients ul {
+    list-style: none;
+}
+#lower-images img {
+    width: 20%;
+    height: auto;
+}
+
+.card {
+    background-color: #c7dbf9;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+.card h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+li.smiley:before { content: "😀"; }
+li.box:before { content: "❑"; }
+li.hand:before { content: "☞"; }
+li.star:before { content: "✭"; }
+li.triangle:before { content: "►"; }
+li.dot:before { content: "◉";}
+li.quote:before { content: "»"; font-size: 1.2em; }
+li.arrow:before { content: "→"; }
+li.sun:before { content: "☀️"; }
+li.checkmark:before { content: "✓"; }
+li.heart:before { content: "❤️"}
+
+@media (min-width: 400px) {
+    p h1 h2 h3 h4 h5 {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 750px){
+    p h1 h2 h3 h4 h5{
+        font-size: 1.5rem;
+    }
+    
+}
